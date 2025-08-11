@@ -2,20 +2,7 @@ import { configureStore, createSlice } from "@reduxjs/toolkit";
 import * as Haptics from "expo-haptics";
 import React, { useState } from "react";
 import { FlatList, ScrollView, StyleSheet, useWindowDimensions, View } from "react-native";
-import {
-  Appbar,
-  Avatar,
-  Banner,
-  Button,
-  Card,
-  Divider,
-  MD3DarkTheme,
-  MD3LightTheme,
-  PaperProvider,
-  Switch,
-  Text,
-  TextInput,
-} from "react-native-paper";
+import {Appbar,Avatar,Banner,Button,Card,Divider,MD3DarkTheme,MD3LightTheme,PaperProvider,Switch,Text,TextInput,} from "react-native-paper";
 import { Provider, useDispatch, useSelector } from "react-redux";
 
 /********************
